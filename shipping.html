@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shipping.css">
+    <title>Shipping</title>
+</head>
+<header>
+    <h2 id="title">Calculator <br> Shipping</h2>
+</header>
+    <br>
+    <h3 id="SU">Enter your zip code</h3>
+<div class="function">
+<section class="container">
+    <div class="blocks">
+        <div class="nome">
+            <label for="cep">Zip Code</label>
+            <input type="text" class="control-panel" id="cep" maxlength="9" placeholder="00000-000" required=""><br>
+        </div> 
+        <br>
+        <div class="nome">
+            <label for="logradouro">Address</label>
+            <input type="text" class="control-panel" id="logradouro" placeholder="Avenue, Street">
+        </div>    
+        <br>
+        <div class="nome">
+            <label for="uf">State</label>
+            <input type="text" class="control-panel" id="uf" placeholder="**">
+        </div>
+        <br>
+        <div class="nome">
+            <label for="ddd">Phone Code</label>
+            <input type="text" class="control-panel" id="ddd" placeholder="**">
+        </div>
+        <br>
+        <div class="nome">
+            <input type="submit" class="control-panel" id="submit" value="Send">
+            <input type="button" class="control-panel" id="calculate" value="Calculate">
+            <input type="button" id="limpar" value="Clean" name="limpar"> 
+        </div>
+    </div>
+</section>
+</div>
+<footer id="fter" >
+    <a href="https://www.instagram.com/"><img class="social-media" src="instagram.png" alt="instagram-logo"></a>
+    <a href="https://twitter.com/"><img class="social-media" src="twitter.png" alt="twitter-logo"></a>
+    <a href="https://facebook.com/"><img class="social-media" src="facebook.png" alt="facebook-logo"></a>
+    <h5>©DNH</h5>
+</footer>
+<script src="shipping.js"></script>    
+</body>
+</html>
