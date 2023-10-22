@@ -1,2 +1,2 @@
 # website
-My website project for my college
+My website project for college.
