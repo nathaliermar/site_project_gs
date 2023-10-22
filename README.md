@@ -1,2 +1,2 @@
-# website
+# Website
 My website project for college.
